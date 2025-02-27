@@ -1,3 +1,82 @@
 body {
   background-color:#ffffff;
+  color: #000000;
+}
+
+p {color:darkmagenta;
+ font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {color:#ffffff;
+ font-family: "Birthstone", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+background-color:hotpink;
+width: 70%;
+padding: 50px;
+text-align: center;
+}
+
+a {
+  color: hotpink;
+}
+a:hover {
+  color: #f89828;
+}
+.subhead {
+  color: magenta;
+  font-weight: 900;
+  line-height: 2rem;
+}
+
+.leftimage {
+  margin-right: 50px;
+}
+
+.trgrey {
+  background-color: #666;
+}
+
+table, th, td {
+  border: 1px solid #ff0000;
+  padding: 10px;
+}
+
+h2 {color:#ffffff;
+ font-family: "Birthstone", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+background-color:hotpink;
+width: 10%;
+padding: 20px;
+text-align: left;
+}
+
+body { 
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {color:darkmagenta;
+ font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
