@@ -1,0 +1,76 @@
+body {  
+  background-color:#ADD8E6;
+  margin: 30 px;
+}
+
+h1 {
+    background-color: #ADD8E6;
+    color: #000000; 
+    font-family:"Bodoni Moda",sans-serif;
+    line-height: 1.6;
+    padding: 40px;
+    font-weight:200;
+    text-align: center;
+}
+
+h5 {
+        font-family: "Bodoni Moda", sans-serif;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        text-align: left;
+        color: #000000;
+    }
+
+  h4 { 
+        font-family: "Bodoni Moda", sans-serif;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        text-align: center;
+        color: #000000;
+    }
+
+
+.content-box {
+        padding: 20px;
+        width: 80%;
+        margin: 20px auto;
+        align-content: center;
+    }
+
+.pull-quote {
+  font-weight: 400;
+  letter-spacing: .5px;
+  font-family: "Bodoni Moda", sans-serif;
+  font-size: 1.125rem;
+  max-width: 50%;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: #00008B;
+  float: right;
+  margin: 10px 0 0 20px;
+}
+
+.pull-quote:before {
+  content: '';
+}
+
+.pull-quote:after {
+  content: '';
+}
+
+@media print, screen and (min-width: 40em) {
+  .pull-quote {
+    font-size: 1.875rem;
+    max-width: calc(50% - 5%);
+    margin-right: -15%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .pull-quote {
+    max-width: calc(50% + 5%);
+    margin-right: -25%;
+  }
+}
