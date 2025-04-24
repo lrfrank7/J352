@@ -1,0 +1,42 @@
+.titlebar {
+	text-align:center;
+	color:white;
+}
+
+.picture {
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.photo {
+	border-radius:80%;
+}
+
+.resume {
+	text-align:center;
+	color:#000000;
+	background-color:#ffffff;
+	border-radius:20px;
+}
+
+.section {
+	text-align:center;
+	color:#000000;
+	font-style:bold;
+	font-size:30px;
+
+}
+
+.subhead {
+	text-align:center;
+	color:#000000;
+	font-size:1.5rem;
+
+}
+
+.textresume {
+	text-align:center;
+	color:#000000;
+	font-size:1rem;
+
+}
